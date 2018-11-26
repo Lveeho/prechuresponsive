@@ -1,0 +1,101 @@
+body{
+    color:white;
+}
+.eerstecontainer{
+    background:aqua;
+}
+.tweedecontainer{
+    background:green;
+}
+.derdecontainer{
+    background:yellow;
+}
+.vierkant{
+    height:100px;
+    width:100px;
+    background:red;
+}
+.vierkant2{
+    height: 50px;
+    width:50px;
+    background:blue;
+}
+.kleur{
+    background: purple;
+}
+/*PRECHU*/
+/*ZEER BELANGRIJK: DE CSS HIERONDER IS DE MOBIELE CSS*/
+/*.iphone{/*enkel voor slider positioning absolute*/
+   /* left:0px;
+    top:0px;
+}*/
+.iphone{
+    width: 300px;
+    margin-top: 15px
+}
+#carouselExampleControls > div > div > div > div{
+    top:0px;
+}
+h2{
+    font-size:42px;
+    font-weight: 200;
+    line-height: 1;
+}
+#carouselExampleControls > div > div > div > div > div > div.col-lg-6.my-auto > h2 > small{
+    font-size:26px;
+    font-weight: 200;
+}
+p{
+    color:black;
+}
+
+h3{
+    color:#5094F2;
+}
+#bol1 > img{
+    background-color:#5094F2
+}
+#bol2>img{
+    background-color: #D94748;
+}
+#bol3>img{
+    background-color: #EBBB11;
+}
+#basket > h2{
+    color:#6F7173;
+    font-size: 42px;
+}
+#basket > h3{
+    color:#6F7173;
+    font-size: 26px;
+}
+#basket > p{
+    line-height: 1.9;
+}
+
+#streep{
+    border-bottom:1px solid grey;
+    height: 412px;
+}
+#height{
+    height: 435px;
+}
+/**MEDIA QUERIES*/
+/*/ Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)SM*/
+@media (min-width: 576px) { }
+
+/*/ Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/*/ Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    body>nav>div>div{
+        height: 90px;
+    }
+}
+
+/*/ Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
